@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#F5F5F5" rx="10" ry="10"/>
+  
+  <!-- Plate -->
+  <circle cx="150" cy="170" r="100" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="2"/>
+  <circle cx="150" cy="170" r="95" fill="none" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <!-- Banana Leaf Base (optional) -->
+  <ellipse cx="150" cy="170" rx="90" ry="40" fill="#006400" opacity="0.1"/>
+  
+  <!-- Dosa -->
+  <path d="M80,150 Q150,120 220,150 Q230,160 220,170 Q150,200 80,170 Q70,160 80,150" fill="#F5DEB3" stroke="#DDDDDD" stroke-width="1"/>
+  
+  <!-- Dosa texture and folds -->
+  <path d="M90,155 Q150,130 210,155" fill="none" stroke="#DDDDDD" stroke-width="1" opacity="0.5"/>
+  <path d="M90,165 Q150,190 210,165" fill="none" stroke="#DDDDDD" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Dosa crispy edges -->
+  <path d="M80,150 Q85,145 90,150" fill="none" stroke="#CD853F" stroke-width="1" opacity="0.7"/>
+  <path d="M210,150 Q215,145 220,150" fill="none" stroke="#CD853F" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Potato Masala filling -->
+  <ellipse cx="150" cy="160" rx="30" ry="15" fill="#FFD700" opacity="0.7"/>
+  
+  <!-- Sambar -->
+  <ellipse cx="100" cy="200" rx="25" ry="15" fill="#C65102" opacity="0.9"/>
+  
+  <!-- Coconut Chutney -->
+  <circle cx="200" cy="200" r="15" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <!-- Garnish -->
+  <g>
+    <!-- Curry leaves in Sambar -->
+    <g fill="#006400" opacity="0.8">
+      <circle cx="95" cy="195" r="2"/>
+      <circle cx="100" cy="198" r="2"/>
+      <circle cx="105" cy="195" r="2"/>
+      <circle cx="98" cy="202" r="2"/>
+      <circle cx="103" cy="200" r="2"/>
+    </g>
+    
+    <!-- Red chili in Chutney -->
+    <path d="M195,195 Q200,193 205,195" stroke="#FF0000" stroke-width="2" fill="none" opacity="0.7"/>
+    
+    <!-- Mustard seeds -->
+    <g fill="#000000" opacity="0.6">
+      <circle cx="198" cy="198" r="1"/>
+      <circle cx="202" cy="197" r="1"/>
+      <circle cx="200" cy="202" r="1"/>
+      <circle cx="196" cy="200" r="1"/>
+      <circle cx="203" cy="200" r="1"/>
+    </g>
+  </g>
+  
+  <!-- Steam effect -->
+  <g fill="#FFFFFF" opacity="0.4">
+    <path d="M130,130 Q135,120 140,130 T150,130" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M150,125 Q155,115 160,125 T170,125" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Ghee drizzle -->
+  <g fill="#FFD700" opacity="0.5">
+    <circle cx="140" cy="150" r="2"/>
+    <circle cx="150" cy="145" r="2"/>
+    <circle cx="160" cy="150" r="2"/>
+    <circle cx="145" cy="155" r="2"/>
+    <circle cx="155" cy="155" r="2"/>
+  </g>
+  
+  <!-- Dish name -->
+  <text x="150" y="270" font-family="'Playfair Display', serif" font-size="20" text-anchor="middle" fill="#8B0000">Masala Dosa</text>
+</svg>

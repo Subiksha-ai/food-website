@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none">
+  <!-- Curved pattern for section divider -->
+  <path d="M0,100 L0,50 C300,0 900,0 1200,50 L1200,100 Z" fill="#F5F5F5"/>
+  
+  <!-- Decorative elements -->
+  <g fill="#8B0000" opacity="0.1">
+    <circle cx="300" cy="70" r="5"/>
+    <circle cx="600" cy="60" r="5"/>
+    <circle cx="900" cy="70" r="5"/>
+  </g>
+  
+  <g fill="#DAA520" opacity="0.1">
+    <circle cx="150" cy="80" r="3"/>
+    <circle cx="450" cy="70" r="3"/>
+    <circle cx="750" cy="70" r="3"/>
+    <circle cx="1050" cy="80" r="3"/>
+  </g>
+  
+  <!-- Subtle pattern overlay -->
+  <path d="M0,70 C200,60 400,50 600,60 C800,70 1000,60 1200,70" fill="none" stroke="#DAA520" stroke-width="1" opacity="0.2" stroke-dasharray="5,5"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#F5F5F5" rx="10" ry="10"/>
+  
+  <!-- Plate -->
+  <circle cx="150" cy="170" r="100" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="2"/>
+  <circle cx="150" cy="170" r="95" fill="none" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <!-- Biryani Rice Base -->
+  <ellipse cx="150" cy="170" rx="80" ry="30" fill="#FFCC80"/>
+  
+  <!-- Rice grains -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <ellipse cx="130" cy="160" rx="3" ry="1"/>
+    <ellipse cx="140" cy="155" rx="3" ry="1"/>
+    <ellipse cx="150" cy="165" rx="3" ry="1"/>
+    <ellipse cx="160" cy="160" rx="3" ry="1"/>
+    <ellipse cx="170" cy="170" rx="3" ry="1"/>
+    <ellipse cx="125" cy="175" rx="3" ry="1"/>
+    <ellipse cx="135" cy="180" rx="3" ry="1"/>
+    <ellipse cx="145" cy="175" rx="3" ry="1"/>
+    <ellipse cx="155" cy="180" rx="3" ry="1"/>
+    <ellipse cx="165" cy="175" rx="3" ry="1"/>
+    <ellipse cx="175" cy="165" rx="3" ry="1"/>
+  </g>
+  
+  <!-- Chicken pieces -->
+  <g fill="#CD853F">
+    <path d="M130,160 Q135,150 140,160 T150,160" stroke="#CD853F" stroke-width="5" fill="none"/>
+    <path d="M160,170 Q165,160 170,170 T180,170" stroke="#CD853F" stroke-width="5" fill="none"/>
+    <path d="M140,180 Q145,170 150,180 T160,180" stroke="#CD853F" stroke-width="5" fill="none"/>
+  </g>
+  
+  <!-- Spices and garnish -->
+  <g>
+    <!-- Saffron -->
+    <g fill="#FF7722" opacity="0.8">
+      <circle cx="135" cy="155" r="2"/>
+      <circle cx="155" cy="150" r="2"/>
+      <circle cx="175" cy="160" r="2"/>
+      <circle cx="145" cy="170" r="2"/>
+      <circle cx="165" cy="180" r="2"/>
+    </g>
+    
+    <!-- Mint leaves -->
+    <g fill="#006400" opacity="0.8">
+      <ellipse cx="120" cy="150" rx="5" ry="3" transform="rotate(30 120 150)"/>
+      <ellipse cx="180" cy="150" rx="5" ry="3" transform="rotate(-30 180 150)"/>
+      <ellipse cx="150" cy="140" rx="5" ry="3" transform="rotate(0 150 140)"/>
+    </g>
+    
+    <!-- Fried onions -->
+    <g fill="#8B4513" opacity="0.6">
+      <path d="M140,145 Q145,140 150,145 T160,145" stroke="#8B4513" stroke-width="1" fill="none"/>
+      <path d="M130,155 Q135,150 140,155 T150,155" stroke="#8B4513" stroke-width="1" fill="none"/>
+      <path d="M150,150 Q155,145 160,150 T170,150" stroke="#8B4513" stroke-width="1" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Steam effect -->
+  <g fill="#FFFFFF" opacity="0.4">
+    <path d="M130,120 Q135,110 140,120 T150,120" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M150,110 Q155,100 160,110 T170,110" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M170,120 Q175,110 180,120 T190,120" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Dish name -->
+  <text x="150" y="270" font-family="'Playfair Display', serif" font-size="20" text-anchor="middle" fill="#8B0000">Hyderabadi Biryani</text>
+</svg>

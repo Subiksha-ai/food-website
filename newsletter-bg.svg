@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#006400" stop-opacity="0.9"/>
+    </linearGradient>
+    
+    <!-- Pattern for background -->
+    <pattern id="spice-pattern" patternUnits="userSpaceOnUse" width="100" height="100" patternTransform="rotate(45)">
+      <g fill="#DAA520" opacity="0.1">
+        <circle cx="50" cy="50" r="3"/>
+        <circle cx="0" cy="0" r="2"/>
+        <circle cx="0" cy="100" r="2"/>
+        <circle cx="100" cy="0" r="2"/>
+        <circle cx="100" cy="100" r="2"/>
+      </g>
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Pattern overlay -->
+  <rect width="1200" height="300" fill="url(#spice-pattern)"/>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.2">
+    <!-- Envelope icon -->
+    <rect x="500" y="100" width="200" height="120" rx="5" fill="#FFF"/>
+    <path d="M500,100 L600,170 L700,100" stroke="#DAA520" stroke-width="2" fill="none"/>
+    <path d="M500,220 L570,170 M700,220 L630,170" stroke="#DAA520" stroke-width="2" fill="none"/>
+    
+    <!-- Decorative lines -->
+    <line x1="300" y1="80" x2="450" y2="80" stroke="#DAA520" stroke-width="2" opacity="0.5" stroke-dasharray="10 5"/>
+    <line x1="750" y1="80" x2="900" y2="80" stroke="#DAA520" stroke-width="2" opacity="0.5" stroke-dasharray="10 5"/>
+    <line x1="300" y1="240" x2="450" y2="240" stroke="#DAA520" stroke-width="2" opacity="0.5" stroke-dasharray="10 5"/>
+    <line x1="750" y1="240" x2="900" y2="240" stroke="#DAA520" stroke-width="2" opacity="0.5" stroke-dasharray="10 5"/>
+  </g>
+  
+  <!-- Spice elements -->
+  <g fill="#DAA520" opacity="0.3">
+    <!-- Spice sprinkles -->
+    <circle cx="100" cy="50" r="3"/>
+    <circle cx="120" cy="70" r="2"/>
+    <circle cx="90" cy="80" r="4"/>
+    <circle cx="300" cy="250" r="3"/>
+    <circle cx="320" cy="270" r="2"/>
+    <circle cx="290" cy="280" r="4"/>
+    <circle cx="800" cy="50" r="3"/>
+    <circle cx="820" cy="70" r="2"/>
+    <circle cx="790" cy="80" r="4"/>
+    <circle cx="900" cy="250" r="3"/>
+    <circle cx="920" cy="270" r="2"/>
+    <circle cx="890" cy="280" r="4"/>
+    <circle cx="1100" cy="50" r="3"/>
+    <circle cx="1120" cy="70" r="2"/>
+    <circle cx="1090" cy="80" r="4"/>
+  </g>
+  
+  <!-- Subtle vignette effect -->
+  <radialGradient id="vignette" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+    <stop offset="0%" stop-color="transparent" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
+  </radialGradient>
+  <rect width="1200" height="300" fill="url(#vignette)"/>
+</svg>

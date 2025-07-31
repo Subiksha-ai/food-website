@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#F5F5F5" rx="10" ry="10"/>
+  
+  <!-- Plate -->
+  <circle cx="150" cy="170" r="100" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="2"/>
+  <circle cx="150" cy="170" r="95" fill="none" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <!-- Idli -->
+  <ellipse cx="120" cy="150" rx="40" ry="25" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="1"/>
+  <ellipse cx="120" cy="150" rx="38" ry="23" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="1"/>
+  <ellipse cx="180" cy="150" rx="40" ry="25" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="1"/>
+  <ellipse cx="180" cy="150" rx="38" ry="23" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <!-- Sambar -->
+  <ellipse cx="150" cy="200" rx="50" ry="20" fill="#C65102" opacity="0.9"/>
+  
+  <!-- Coconut Chutney -->
+  <circle cx="100" cy="200" r="15" fill="#FFFFFF" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <!-- Garnish -->
+  <g fill="#006400" opacity="0.8">
+    <circle cx="145" cy="195" r="2"/>
+    <circle cx="155" cy="198" r="2"/>
+    <circle cx="160" cy="190" r="2"/>
+    <circle cx="140" cy="205" r="2"/>
+    <circle cx="150" cy="210" r="2"/>
+  </g>
+  
+  <!-- Steam effect -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <path d="M120,120 Q125,110 130,120 T140,120" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M170,120 Q175,110 180,120 T190,120" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Banana leaf decoration -->
+  <path d="M50,170 Q100,140 150,170 T250,170" fill="#006400" opacity="0.1"/>
+  
+  <!-- Dish name -->
+  <text x="150" y="270" font-family="'Playfair Display', serif" font-size="20" text-anchor="middle" fill="#8B0000">Idli Sambar</text>
+</svg>

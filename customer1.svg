@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#F5F5F5" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Person Silhouette -->
+  <circle cx="50" cy="40" r="20" fill="#DAA520"/>
+  <path d="M50 65 C30 65 20 85 20 95 L80 95 C80 85 70 65 50 65Z" fill="#DAA520"/>
+  
+  <!-- Decorative Elements -->
+  <path d="M5,5 L15,15 M5,95 L15,85 M95,5 L85,15 M95,95 L85,85" stroke="#DAA520" stroke-width="2"/>
+  
+  <!-- Spice Leaf Motif -->
+  <path d="M75,25 C85,15 85,35 75,25 M72,28 C77,23 77,33 72,28" fill="none" stroke="#006400" stroke-width="1"/>
+</svg>

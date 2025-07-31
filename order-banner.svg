@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#006400" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Decorative elements for order page -->
+  <g opacity="0.2" fill="#FFF">
+    <!-- Stylized order elements -->
+    <rect x="200" y="100" width="200" height="100" rx="10"/> <!-- Order card 1 -->
+    <rect x="500" y="100" width="200" height="100" rx="10"/> <!-- Order card 2 -->
+    <rect x="800" y="100" width="200" height="100" rx="10"/> <!-- Order card 3 -->
+    
+    <!-- Cart icon -->
+    <path d="M1050,150 L1080,150 L1090,180 L1040,180 Z" stroke="#DAA520" stroke-width="2" fill="none"/>
+    <circle cx="1050" cy="190" r="5" fill="#DAA520"/>
+    <circle cx="1080" cy="190" r="5" fill="#DAA520"/>
+  </g>
+  
+  <!-- Food icons inside cards -->
+  <g fill="#DAA520" opacity="0.5">
+    <circle cx="250" cy="150" r="30"/> <!-- Food item 1 -->
+    <rect x="300" y="140" width="60" height="10" rx="5"/> <!-- Text line 1 -->
+    <rect x="300" y="160" width="40" height="10" rx="5"/> <!-- Text line 2 -->
+    
+    <path d="M550,130 L580,130 L580,170 L550,170 Z" /> <!-- Food item 2 -->
+    <rect x="600" y="140" width="60" height="10" rx="5"/> <!-- Text line 1 -->
+    <rect x="600" y="160" width="40" height="10" rx="5"/> <!-- Text line 2 -->
+    
+    <path d="M830,130 C830,120 870,120 870,130 C870,170 830,170 830,130 Z" /> <!-- Food item 3 -->
+    <rect x="900" y="140" width="60" height="10" rx="5"/> <!-- Text line 1 -->
+    <rect x="900" y="160" width="40" height="10" rx="5"/> <!-- Text line 2 -->
+  </g>
+  
+  <!-- Decorative spice elements -->
+  <g fill="#FFF" opacity="0.3">
+    <!-- Spice sprinkles -->
+    <circle cx="100" cy="50" r="3"/>
+    <circle cx="120" cy="70" r="2"/>
+    <circle cx="90" cy="80" r="4"/>
+    <circle cx="400" cy="200" r="3"/>
+    <circle cx="420" cy="220" r="2"/>
+    <circle cx="390" cy="230" r="4"/>
+    <circle cx="700" cy="80" r="3"/>
+    <circle cx="720" cy="100" r="2"/>
+    <circle cx="690" cy="110" r="4"/>
+    <circle cx="950" cy="220" r="3"/>
+    <circle cx="970" cy="240" r="2"/>
+    <circle cx="940" cy="250" r="4"/>
+  </g>
+</svg>

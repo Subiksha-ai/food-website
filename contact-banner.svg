@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#006400" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Decorative elements for contact page -->
+  <g opacity="0.2" fill="#FFF">
+    <!-- Contact icons -->
+    <!-- Phone -->
+    <path d="M250,150 C250,130 270,130 270,150 L270,180 C270,200 250,200 250,180 Z" />
+    <path d="M250,140 L270,140" stroke="#FFF" stroke-width="2" fill="none"/>
+    <path d="M250,150 L270,150" stroke="#FFF" stroke-width="2" fill="none"/>
+    <path d="M250,160 L270,160" stroke="#FFF" stroke-width="2" fill="none"/>
+    <path d="M250,170 L270,170" stroke="#FFF" stroke-width="2" fill="none"/>
+    <path d="M250,180 L270,180" stroke="#FFF" stroke-width="2" fill="none"/>
+    <path d="M250,190 L270,190" stroke="#FFF" stroke-width="2" fill="none"/>
+    
+    <!-- Email -->
+    <rect x="400" y="150" width="80" height="50" rx="5"/>
+    <path d="M400,150 L440,180 L480,150" stroke="#DAA520" stroke-width="2" fill="none"/>
+    
+    <!-- Location pin -->
+    <path d="M600,130 C600,110 630,110 630,130 C630,160 615,190 615,190 C615,190 600,160 600,130 Z" />
+    <circle cx="615" cy="140" r="10" fill="#DAA520"/>
+    
+    <!-- Clock -->
+    <circle cx="750" cy="150" r="40" />
+    <circle cx="750" cy="150" r="35" fill="#8B0000" opacity="0.3"/>
+    <line x1="750" y1="150" x2="750" y2="120" stroke="#DAA520" stroke-width="2"/>
+    <line x1="750" y1="150" x2="770" y2="150" stroke="#DAA520" stroke-width="2"/>
+    
+    <!-- Form -->
+    <rect x="850" y="120" width="200" height="150" rx="5"/>
+    <rect x="870" y="140" width="160" height="20" rx="5" fill="#DAA520" opacity="0.3"/>
+    <rect x="870" y="170" width="160" height="20" rx="5" fill="#DAA520" opacity="0.3"/>
+    <rect x="870" y="200" width="160" height="20" rx="5" fill="#DAA520" opacity="0.3"/>
+    <rect x="870" y="230" width="80" height="20" rx="5" fill="#DAA520" opacity="0.5"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g fill="#DAA520" opacity="0.3">
+    <!-- Indian pattern elements -->
+    <path d="M150,50 L170,70 L150,90 L130,70 Z"/>
+    <path d="M150,100 L170,120 L150,140 L130,120 Z"/>
+    <path d="M150,150 L170,170 L150,190 L130,170 Z"/>
+    <path d="M150,200 L170,220 L150,240 L130,220 Z"/>
+    
+    <path d="M1050,50 L1070,70 L1050,90 L1030,70 Z"/>
+    <path d="M1050,100 L1070,120 L1050,140 L1030,120 Z"/>
+    <path d="M1050,150 L1070,170 L1050,190 L1030,170 Z"/>
+    <path d="M1050,200 L1070,220 L1050,240 L1030,220 Z"/>
+  </g>
+  
+  <!-- Spice elements -->
+  <g fill="#FFF" opacity="0.3">
+    <!-- Spice sprinkles -->
+    <circle cx="200" cy="50" r="3"/>
+    <circle cx="220" cy="70" r="2"/>
+    <circle cx="190" cy="80" r="4"/>
+    <circle cx="500" cy="80" r="3"/>
+    <circle cx="520" cy="100" r="2"/>
+    <circle cx="490" cy="110" r="4"/>
+    <circle cx="800" cy="50" r="3"/>
+    <circle cx="820" cy="70" r="2"/>
+    <circle cx="790" cy="80" r="4"/>
+    <circle cx="1000" cy="80" r="3"/>
+    <circle cx="1020" cy="100" r="2"/>
+    <circle cx="990" cy="110" r="4"/>
+  </g>
+</svg>

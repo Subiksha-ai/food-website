@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="30" viewBox="0 0 150 30">
+  <!-- 5-Star Rating -->
+  <g>
+    <!-- Star 1 (filled) -->
+    <path d="M15,2 L19,10 L28,11.5 L21.5,17.5 L23,26.5 L15,22 L7,26.5 L8.5,17.5 L2,11.5 L11,10 Z" fill="#DAA520" stroke="#8B0000" stroke-width="1"/>
+    
+    <!-- Star 2 (filled) -->
+    <path d="M45,2 L49,10 L58,11.5 L51.5,17.5 L53,26.5 L45,22 L37,26.5 L38.5,17.5 L32,11.5 L41,10 Z" fill="#DAA520" stroke="#8B0000" stroke-width="1"/>
+    
+    <!-- Star 3 (filled) -->
+    <path d="M75,2 L79,10 L88,11.5 L81.5,17.5 L83,26.5 L75,22 L67,26.5 L68.5,17.5 L62,11.5 L71,10 Z" fill="#DAA520" stroke="#8B0000" stroke-width="1"/>
+    
+    <!-- Star 4 (filled) -->
+    <path d="M105,2 L109,10 L118,11.5 L111.5,17.5 L113,26.5 L105,22 L97,26.5 L98.5,17.5 L92,11.5 L101,10 Z" fill="#DAA520" stroke="#8B0000" stroke-width="1"/>
+    
+    <!-- Star 5 (filled) -->
+    <path d="M135,2 L139,10 L148,11.5 L141.5,17.5 L143,26.5 L135,22 L127,26.5 L128.5,17.5 L122,11.5 L131,10 Z" fill="#DAA520" stroke="#8B0000" stroke-width="1"/>
+  </g>
+  
+  <!-- Sparkle effects -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="15" cy="7" r="1"/>
+    <circle cx="45" cy="7" r="1"/>
+    <circle cx="75" cy="7" r="1"/>
+    <circle cx="105" cy="7" r="1"/>
+    <circle cx="135" cy="7" r="1"/>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Background Circle with Animation -->
+  <circle cx="40" cy="40" r="36" fill="#FFFFFF" stroke="#006400" stroke-width="2">
+    <animate attributeName="r" values="36;38;36" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Success Checkmark -->
+  <g transform="translate(40, 40) scale(1.2)">
+    <!-- Check Circle -->
+    <circle cx="0" cy="0" r="20" fill="#006400" opacity="0.2"/>
+    
+    <!-- Checkmark -->
+    <path d="M-10,0 L-3,7 L10,-6" fill="none" stroke="#006400" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="1s" fill="freeze"/>
+    </path>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Gold Accent Border -->
+    <circle cx="40" cy="40" r="38" fill="none" stroke="#DAA520" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Corner Accents -->
+    <circle cx="15" cy="15" r="2" fill="#DAA520" opacity="0.7"/>
+    <circle cx="65" cy="15" r="2" fill="#DAA520" opacity="0.7"/>
+    <circle cx="15" cy="65" r="2" fill="#DAA520" opacity="0.7"/>
+    <circle cx="65" cy="65" r="2" fill="#DAA520" opacity="0.7"/>
+    
+    <!-- Celebration Sparkles -->
+    <g>
+      <!-- Top Sparkle -->
+      <path d="M40,10 L40,5 M37,7 L43,7" stroke="#DAA520" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="0s"/>
+      </path>
+      
+      <!-- Right Sparkle -->
+      <path d="M70,40 L75,40 M72,37 L72,43" stroke="#DAA520" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+      </path>
+      
+      <!-- Bottom Sparkle -->
+      <path d="M40,70 L40,75 M37,72 L43,72" stroke="#DAA520" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="1s"/>
+      </path>
+      
+      <!-- Left Sparkle -->
+      <path d="M10,40 L5,40 M7,37 L7,43" stroke="#DAA520" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+      </path>
+    </g>
+    
+    <!-- Spice Leaf Decoration -->
+    <g transform="translate(40, 15) scale(0.2)">
+      <path d="M0,-20 Q10,-15 10,0 Q10,15 0,20 Q-10,15 -10,0 Q-10,-15 0,-20" fill="#006400" opacity="0.5"/>
+      <path d="M0,-20 L0,20" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+      <path d="M-8,-8 L8,8" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+      <path d="M8,-8 L-8,8" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

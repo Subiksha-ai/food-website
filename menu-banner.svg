@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#006400" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Food illustration elements -->
+  <g opacity="0.2" fill="#FFF">
+    <!-- Stylized plates and food items -->
+    <circle cx="200" cy="150" r="80"/> <!-- Plate 1 -->
+    <circle cx="500" cy="150" r="60"/> <!-- Plate 2 -->
+    <circle cx="800" cy="150" r="70"/> <!-- Plate 3 -->
+    <circle cx="1050" cy="150" r="50"/> <!-- Plate 4 -->
+    
+    <!-- Food silhouettes -->
+    <path d="M180,120 C200,100 220,100 240,120 C240,180 180,180 180,120 Z" fill="#DAA520" opacity="0.5"/> <!-- Dosa -->
+    <circle cx="500" cy="130" r="30" fill="#DAA520" opacity="0.5"/> <!-- Rice -->
+    <rect x="770" y="120" width="60" height="60" rx="5" fill="#DAA520" opacity="0.5"/> <!-- Paneer dish -->
+    <path d="M1030,130 L1050,110 L1070,130 L1070,160 L1030,160 Z" fill="#DAA520" opacity="0.5"/> <!-- Samosa -->
+  </g>
+  
+  <!-- Decorative spice elements -->
+  <g fill="#DAA520" opacity="0.3">
+    <!-- Spice sprinkles -->
+    <circle cx="100" cy="50" r="3"/>
+    <circle cx="120" cy="70" r="2"/>
+    <circle cx="90" cy="80" r="4"/>
+    <circle cx="300" cy="200" r="3"/>
+    <circle cx="320" cy="220" r="2"/>
+    <circle cx="290" cy="230" r="4"/>
+    <circle cx="600" cy="80" r="3"/>
+    <circle cx="620" cy="100" r="2"/>
+    <circle cx="590" cy="110" r="4"/>
+    <circle cx="900" cy="220" r="3"/>
+    <circle cx="920" cy="240" r="2"/>
+    <circle cx="890" cy="250" r="4"/>
+    <circle cx="1100" cy="60" r="3"/>
+    <circle cx="1120" cy="80" r="2"/>
+    <circle cx="1090" cy="90" r="4"/>
+  </g>
+  
+  <!-- Subtle pattern overlay -->
+  <rect width="1200" height="300" fill="url(#pattern)" opacity="0.1"/>
+  
+  <!-- Text placeholder (actual text will be in HTML) -->
+  <rect x="400" y="100" width="400" height="100" fill="transparent"/>
+</svg>

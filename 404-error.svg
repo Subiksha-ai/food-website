@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#FFFFFF" opacity="0.1"/>
+  
+  <!-- 404 Text -->
+  <g transform="translate(50, 100)">
+    <!-- 4 -->
+    <g transform="translate(0, 0)">
+      <path d="M20,0 L20,60 M0,40 L40,40" stroke="#8B0000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- 0 -->
+    <g transform="translate(60, 0)">
+      <circle cx="20" cy="30" r="30" fill="none" stroke="#8B0000" stroke-width="8"/>
+    </g>
+    
+    <!-- 4 -->
+    <g transform="translate(120, 0)">
+      <path d="M20,0 L20,60 M0,40 L40,40" stroke="#8B0000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  
+  <!-- Broken Plate Illustration -->
+  <g transform="translate(200, 100)">
+    <!-- Plate Pieces -->
+    <path d="M0,0 L30,-20 L40,10 Z" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+    <path d="M0,0 L-20,30 L10,40 Z" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+    <path d="M0,0 L-30,-20 L-40,10 Z" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+    <path d="M0,0 L20,-30 L-10,-40 Z" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+    
+    <!-- Food Spill -->
+    <circle cx="-15" cy="15" r="5" fill="#DAA520" opacity="0.8"/>
+    <circle cx="10" cy="-20" r="4" fill="#DAA520" opacity="0.8"/>
+    <circle cx="-25" cy="-10" r="3" fill="#DAA520" opacity="0.8"/>
+    <path d="M-5,-5 Q0,10 10,0" stroke="#006400" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Spice Sprinkles -->
+    <circle cx="50" cy="30" r="2" fill="#DAA520" opacity="0.6"/>
+    <circle cx="70" cy="40" r="1.5" fill="#DAA520" opacity="0.6"/>
+    <circle cx="90" cy="25" r="2" fill="#DAA520" opacity="0.6"/>
+    <circle cx="230" cy="160" r="2" fill="#DAA520" opacity="0.6"/>
+    <circle cx="250" cy="170" r="1.5" fill="#DAA520" opacity="0.6"/>
+    <circle cx="210" cy="150" r="2" fill="#DAA520" opacity="0.6"/>
+    
+    <!-- Leaf Decorations -->
+    <path d="M30,170 Q40,160 30,150 Q20,160 30,170" fill="#006400" opacity="0.5"/>
+    <path d="M270,50 Q280,40 270,30 Q260,40 270,50" fill="#006400" opacity="0.5"/>
+  </g>
+  
+  <!-- Message -->
+  <text x="150" y="180" font-family="Arial" font-size="12" fill="#8B0000" text-anchor="middle">Page Not Found</text>
+</svg>

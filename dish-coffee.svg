@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#F5F5F5" rx="10" ry="10"/>
+  
+  <!-- Traditional brass tumbler (outer container) -->
+  <path d="M130,120 L110,220 Q110,240 150,240 Q190,240 190,220 L170,120" fill="#CD853F" stroke="#8B4513" stroke-width="1"/>
+  
+  <!-- Brass tumbler highlights -->
+  <path d="M130,120 L110,220 Q110,240 150,240 Q190,240 190,220 L170,120" fill="none" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Brass davara (saucer) -->
+  <ellipse cx="150" cy="240" rx="60" ry="15" fill="#CD853F" stroke="#8B4513" stroke-width="1"/>
+  <ellipse cx="150" cy="240" rx="50" ry="10" fill="#CD853F" stroke="#DAA520" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Coffee in tumbler -->
+  <path d="M130,120 L115,200 Q115,220 150,220 Q185,220 185,200 L170,120" fill="#4B2D0F" stroke="none"/>
+  
+  <!-- Coffee froth -->
+  <ellipse cx="150" cy="120" rx="20" ry="10" fill="#FFF8DC" stroke="none"/>
+  <path d="M135,120 Q140,115 145,120 T155,120" stroke="#FFF8DC" stroke-width="2" fill="none"/>
+  <path d="M145,120 Q150,115 155,120 T165,120" stroke="#FFF8DC" stroke-width="2" fill="none"/>
+  
+  <!-- Steam effect -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <path d="M140,100 Q145,90 150,100 T160,100" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M150,90 Q155,80 160,90 T170,90" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M130,100 Q135,90 140,100 T150,100" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Coffee beans decoration -->
+  <g fill="#4B2D0F">
+    <ellipse cx="100" cy="180" rx="8" ry="5" transform="rotate(30 100 180)"/>
+    <ellipse cx="90" cy="160" rx="8" ry="5" transform="rotate(-30 90 160)"/>
+    <ellipse cx="200" cy="180" rx="8" ry="5" transform="rotate(-30 200 180)"/>
+    <ellipse cx="210" cy="160" rx="8" ry="5" transform="rotate(30 210 160)"/>
+  </g>
+  
+  <!-- Traditional pouring style (small illustration) -->
+  <g opacity="0.6" transform="translate(220,120) scale(0.5)">
+    <path d="M130,120 L110,220 Q110,240 150,240 Q190,240 190,220 L170,120" fill="#CD853F" stroke="#8B4513" stroke-width="1"/>
+    <path d="M130,120 L115,200 Q115,220 150,220 Q185,220 185,200 L170,120" fill="#4B2D0F" stroke="none"/>
+    <path d="M150,120 L150,80" stroke="#4B2D0F" stroke-width="3" fill="none"/>
+    <path d="M150,80 L170,60" stroke="#4B2D0F" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Cardamom pods decoration -->
+  <g fill="#006400" opacity="0.8">
+    <ellipse cx="80" cy="200" rx="5" ry="3" transform="rotate(30 80 200)"/>
+    <ellipse cx="220" cy="200" rx="5" ry="3" transform="rotate(-30 220 200)"/>
+  </g>
+  
+  <!-- Dish name -->
+  <text x="150" y="270" font-family="'Playfair Display', serif" font-size="20" text-anchor="middle" fill="#8B0000">Filter Coffee</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#006400" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)"/>
+  
+  <!-- Decorative elements for about page -->
+  <g opacity="0.2" fill="#FFF">
+    <!-- Restaurant illustration elements -->
+    <rect x="200" y="120" width="300" height="150" rx="5"/> <!-- Restaurant building -->
+    <rect x="300" y="180" width="100" height="90"/> <!-- Door -->
+    <circle cx="320" cy="220" r="5"/> <!-- Door handle -->
+    <rect x="220" y="150" width="50" height="50"/> <!-- Window 1 -->
+    <rect x="430" y="150" width="50" height="50"/> <!-- Window 2 -->
+    
+    <!-- Chef silhouettes -->
+    <circle cx="600" cy="150" r="40"/> <!-- Chef head 1 -->
+    <rect x="580" y="190" width="40" height="60" rx="10"/> <!-- Chef body 1 -->
+    
+    <circle cx="700" cy="150" r="40"/> <!-- Chef head 2 -->
+    <rect x="680" y="190" width="40" height="60" rx="10"/> <!-- Chef body 2 -->
+    
+    <!-- Cooking elements -->
+    <circle cx="850" cy="180" r="50"/> <!-- Cooking pot -->
+    <path d="M830,150 L870,150 L870,180 L830,180 Z" /> <!-- Pot handle -->
+    
+    <rect x="950" y="150" width="100" height="10" rx="5"/> <!-- Spoon -->
+    <circle cx="1050" cy="155" r="20"/> <!-- Spoon end -->
+  </g>
+  
+  <!-- Indian design elements -->
+  <g fill="#DAA520" opacity="0.4">
+    <!-- Mandala patterns -->
+    <circle cx="100" cy="150" r="50" fill="none" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="100" cy="150" r="40" fill="none" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="100" cy="150" r="30" fill="none" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="100" cy="150" r="20" fill="none" stroke="#DAA520" stroke-width="2"/>
+    
+    <circle cx="1100" cy="150" r="50" fill="none" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="1100" cy="150" r="40" fill="none" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="1100" cy="150" r="30" fill="none" stroke="#DAA520" stroke-width="2"/>
+    <circle cx="1100" cy="150" r="20" fill="none" stroke="#DAA520" stroke-width="2"/>
+  </g>
+  
+  <!-- Spice elements -->
+  <g fill="#FFF" opacity="0.3">
+    <!-- Spice sprinkles -->
+    <circle cx="150" cy="50" r="3"/>
+    <circle cx="170" cy="70" r="2"/>
+    <circle cx="140" cy="80" r="4"/>
+    <circle cx="450" cy="80" r="3"/>
+    <circle cx="470" cy="100" r="2"/>
+    <circle cx="440" cy="110" r="4"/>
+    <circle cx="750" cy="50" r="3"/>
+    <circle cx="770" cy="70" r="2"/>
+    <circle cx="740" cy="80" r="4"/>
+    <circle cx="950" cy="80" r="3"/>
+    <circle cx="970" cy="100" r="2"/>
+    <circle cx="940" cy="110" r="4"/>
+  </g>
+</svg>

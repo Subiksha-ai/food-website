@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <!-- Facebook Icon -->
+  <g transform="translate(25, 25)">
+    <circle cx="0" cy="0" r="20" fill="#F5F5F5" stroke="#8B0000" stroke-width="2"/>
+    <path d="M-5,-10 L-5,10 M-10,0 L0,0 M5,-10 L5,10" stroke="#8B0000" stroke-width="0" fill="none"/>
+    <path d="M5,10 L5,-2 C5,-5 3,-7 0,-7 C-3,-7 -5,-5 -5,-2 L-5,0 L0,0 L0,10" stroke="#8B0000" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Instagram Icon -->
+  <g transform="translate(75, 25)">
+    <circle cx="0" cy="0" r="20" fill="#F5F5F5" stroke="#8B0000" stroke-width="2"/>
+    <rect x="-8" y="-8" width="16" height="16" rx="4" ry="4" fill="none" stroke="#8B0000" stroke-width="2"/>
+    <circle cx="0" cy="0" r="4" fill="none" stroke="#8B0000" stroke-width="2"/>
+    <circle cx="6" cy="-6" r="1" fill="#8B0000"/>
+  </g>
+  
+  <!-- Twitter/X Icon -->
+  <g transform="translate(125, 25)">
+    <circle cx="0" cy="0" r="20" fill="#F5F5F5" stroke="#8B0000" stroke-width="2"/>
+    <path d="M-9,-6 L9,6 M-9,6 L9,-6" stroke="#8B0000" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- WhatsApp Icon -->
+  <g transform="translate(175, 25)">
+    <circle cx="0" cy="0" r="20" fill="#F5F5F5" stroke="#8B0000" stroke-width="2"/>
+    <path d="M0,8 C-8,8 -8,-8 0,-8 C8,-8 8,8 0,8 Z" fill="none" stroke="#8B0000" stroke-width="2"/>
+    <path d="M-5,0 C-5,-3 -3,-5 0,-5 C3,-5 5,-3 5,0 C5,2 4,4 2,5 L0,8 L-2,5 C-4,4 -5,2 -5,0 Z" fill="none" stroke="#8B0000" stroke-width="2"/>
+  </g>
+  
+  <!-- Gold accents -->
+  <g fill="#DAA520" opacity="0.5">
+    <circle cx="25" cy="25" r="18" fill="none" stroke="#DAA520" stroke-width="1"/>
+    <circle cx="75" cy="25" r="18" fill="none" stroke="#DAA520" stroke-width="1"/>
+    <circle cx="125" cy="25" r="18" fill="none" stroke="#DAA520" stroke-width="1"/>
+    <circle cx="175" cy="25" r="18" fill="none" stroke="#DAA520" stroke-width="1"/>
+  </g>
+</svg>

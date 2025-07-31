@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#F5F5F5"/>
+  
+  <!-- Shield outline -->
+  <path d="M100,30 L150,50 Q160,100 100,170 Q40,100 50,50 Z" fill="#FFFFFF" stroke="#006400" stroke-width="3"/>
+  
+  <!-- Shield inner detail -->
+  <path d="M100,40 L140,55 Q150,100 100,160 Q50,100 60,55 Z" fill="none" stroke="#006400" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Checkmark -->
+  <path d="M75,100 L90,115 L125,80" fill="none" stroke="#006400" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Soap bubbles -->
+  <g fill="#FFFFFF" stroke="#006400" stroke-width="1">
+    <circle cx="60" cy="60" r="10" opacity="0.7"/>
+    <circle cx="140" cy="60" r="8" opacity="0.7"/>
+    <circle cx="50" cy="100" r="6" opacity="0.7"/>
+    <circle cx="150" cy="100" r="7" opacity="0.7"/>
+    <circle cx="70" cy="140" r="5" opacity="0.7"/>
+    <circle cx="130" cy="140" r="9" opacity="0.7"/>
+  </g>
+  
+  <!-- Sparkle effects -->
+  <g fill="none" stroke="#DAA520" stroke-width="1">
+    <path d="M40,50 L60,50" stroke-linecap="round"/>
+    <path d="M50,40 L50,60" stroke-linecap="round"/>
+    
+    <path d="M140,40 L160,40" stroke-linecap="round"/>
+    <path d="M150,30 L150,50" stroke-linecap="round"/>
+    
+    <path d="M170,90 L190,90" stroke-linecap="round"/>
+    <path d="M180,80 L180,100" stroke-linecap="round"/>
+    
+    <path d="M30,130 L50,130" stroke-linecap="round"/>
+    <path d="M40,120 L40,140" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Kitchen utensil silhouettes -->
+  <g fill="#006400" opacity="0.2">
+    <!-- Chef hat -->
+    <path d="M80,30 Q80,15 100,15 Q120,15 120,30 Q120,40 110,42 L110,45 L90,45 L90,42 Q80,40 80,30" transform="scale(0.5) translate(100, 20)"/>
+    
+    <!-- Plate -->
+    <circle cx="160" cy="160" r="15"/>
+    <circle cx="160" cy="160" r="10" fill="#FFFFFF"/>
+    
+    <!-- Spoon -->
+    <path d="M40,160 Q35,150 40,140 Q45,150 40,160" />
+    <rect x="38" y="160" width="4" height="15" rx="2" ry="2"/>
+  </g>
+  
+  <!-- HACCP text -->
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#006400" font-weight="bold">HACCP</text>
+  
+  <!-- Decorative border -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#006400" stroke-width="3" opacity="0.7"/>
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#DAA520" stroke-width="1" opacity="0.5"/>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Background Circle with Animation -->
+  <circle cx="40" cy="40" r="36" fill="#FFFFFF" stroke="#4682B4" stroke-width="2">
+    <animate attributeName="r" values="36;38;36" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Info Symbol -->
+  <g transform="translate(40, 40) scale(1.2)">
+    <!-- Info Circle -->
+    <circle cx="0" cy="0" r="20" fill="#4682B4" opacity="0.2"/>
+    
+    <!-- i Symbol -->
+    <circle cx="0" cy="-10" r="2.5" fill="#4682B4">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze"/>
+    </circle>
+    <line x1="0" y1="-5" x2="0" y2="10" stroke="#4682B4" stroke-width="4" stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="0.5s" fill="freeze" begin="0.3s"/>
+    </line>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Gold Accent Border -->
+    <circle cx="40" cy="40" r="38" fill="none" stroke="#DAA520" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Corner Accents -->
+    <circle cx="15" cy="15" r="2" fill="#DAA520" opacity="0.7"/>
+    <circle cx="65" cy="15" r="2" fill="#DAA520" opacity="0.7"/>
+    <circle cx="15" cy="65" r="2" fill="#DAA520" opacity="0.7"/>
+    <circle cx="65" cy="65" r="2" fill="#DAA520" opacity="0.7"/>
+    
+    <!-- Info Rays -->
+    <g>
+      <!-- Top Ray -->
+      <path d="M40,15 L40,5" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="0s"/>
+      </path>
+      
+      <!-- Top Right Ray -->
+      <path d="M60,20 L67,13" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="0.25s"/>
+      </path>
+      
+      <!-- Right Ray -->
+      <path d="M65,40 L75,40" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+      </path>
+      
+      <!-- Bottom Right Ray -->
+      <path d="M60,60 L67,67" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="0.75s"/>
+      </path>
+      
+      <!-- Bottom Ray -->
+      <path d="M40,65 L40,75" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="1s"/>
+      </path>
+      
+      <!-- Bottom Left Ray -->
+      <path d="M20,60 L13,67" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="1.25s"/>
+      </path>
+      
+      <!-- Left Ray -->
+      <path d="M15,40 L5,40" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+      </path>
+      
+      <!-- Top Left Ray -->
+      <path d="M20,20 L13,13" stroke="#4682B4" stroke-width="1" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite" begin="1.75s"/>
+      </path>
+    </g>
+    
+    <!-- Spice Leaf Decoration -->
+    <g transform="translate(40, 15) scale(0.2)">
+      <path d="M0,-20 Q10,-15 10,0 Q10,15 0,20 Q-10,15 -10,0 Q-10,-15 0,-20" fill="#006400" opacity="0.5"/>
+      <path d="M0,-20 L0,20" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+      <path d="M-8,-8 L8,8" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+      <path d="M8,-8 L-8,8" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

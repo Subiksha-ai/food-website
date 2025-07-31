@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="80" viewBox="0 0 120 80">
+  <!-- Gift Card Base -->
+  <rect x="10" y="15" width="100" height="60" rx="5" ry="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Card Decoration - Horizontal Stripe -->
+  <rect x="10" y="30" width="100" height="10" fill="#DAA520" opacity="0.3"/>
+  
+  <!-- SpiceLeaf Logo -->
+  <g transform="translate(25, 40)">
+    <!-- Text "GIFT CARD" -->
+    <text x="0" y="0" font-family="Arial" font-size="12" font-weight="bold" fill="#8B0000">GIFT CARD</text>
+    
+    <!-- Leaf Icon -->
+    <g transform="translate(35, -5) scale(0.15)">
+      <path d="M0,-50 Q30,-30 30,0 Q30,30 0,50 Q-30,30 -30,0 Q-30,-30 0,-50" fill="#006400"/>
+      <path d="M0,-50 L0,50" stroke="#DAA520" stroke-width="3"/>
+      <path d="M-20,-20 L20,20" stroke="#DAA520" stroke-width="3"/>
+      <path d="M20,-20 L-20,20" stroke="#DAA520" stroke-width="3"/>
+    </g>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Corner Accents -->
+    <circle cx="15" cy="20" r="2" fill="#DAA520"/>
+    <circle cx="105" cy="20" r="2" fill="#DAA520"/>
+    <circle cx="15" cy="70" r="2" fill="#DAA520"/>
+    <circle cx="105" cy="70" r="2" fill="#DAA520"/>
+    
+    <!-- Spice Sprinkles -->
+    <circle cx="85" cy="25" r="1.5" fill="#DAA520" opacity="0.7"/>
+    <circle cx="90" cy="22" r="1" fill="#DAA520" opacity="0.7"/>
+    <circle cx="95" cy="25" r="1.5" fill="#DAA520" opacity="0.7"/>
+    
+    <circle cx="25" cy="65" r="1.5" fill="#DAA520" opacity="0.7"/>
+    <circle cx="30" cy="62" r="1" fill="#DAA520" opacity="0.7"/>
+    <circle cx="35" cy="65" r="1.5" fill="#DAA520" opacity="0.7"/>
+  </g>
+  
+  <!-- Gift Bow -->
+  <g transform="translate(90, 15)">
+    <path d="M0,0 Q5,-5 10,0 Q5,5 0,0" fill="#8B0000"/>
+    <path d="M0,0 Q-5,-5 -10,0 Q-5,5 0,0" fill="#8B0000"/>
+    <path d="M0,0 Q5,5 0,10 Q-5,5 0,0" fill="#8B0000"/>
+    <circle cx="0" cy="0" r="2" fill="#DAA520"/>
+  </g>
+  
+  <!-- Card Value -->
+  <text x="60" y="60" font-family="Arial" font-size="14" font-weight="bold" fill="#8B0000" text-anchor="middle">₹500</text>
+  
+  <!-- Magnetic Strip -->
+  <rect x="10" y="50" width="100" height="5" fill="#333333" opacity="0.7"/>
+</svg>

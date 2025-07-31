@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <!-- Background Circle -->
+  <circle cx="25" cy="25" r="24" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  
+  <!-- Calendar Icon -->
+  <g transform="translate(25, 25)">
+    <!-- Calendar Body -->
+    <rect x="-12" y="-10" width="24" height="20" rx="2" ry="2" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+    
+    <!-- Calendar Header -->
+    <rect x="-12" y="-10" width="24" height="5" rx="2" ry="2" fill="#8B0000"/>
+    
+    <!-- Calendar Hangers -->
+    <line x1="-6" y1="-10" x2="-6" y2="-12" stroke="#8B0000" stroke-width="1.5"/>
+    <line x1="6" y1="-10" x2="6" y2="-12" stroke="#8B0000" stroke-width="1.5"/>
+    
+    <!-- Calendar Grid -->
+    <line x1="-12" y1="-5" x2="12" y2="-5" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    <line x1="-12" y1="5" x2="12" y2="5" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    
+    <line x1="-8" y1="-5" x2="-8" y2="10" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    <line x1="-4" y1="-5" x2="-4" y2="10" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    <line x1="0" y1="-5" x2="0" y2="10" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    <line x1="4" y1="-5" x2="4" y2="10" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    <line x1="8" y1="-5" x2="8" y2="10" stroke="#8B0000" stroke-width="1" opacity="0.7"/>
+    
+    <!-- Selected Date -->
+    <rect x="-4" y="0" width="4" height="5" fill="#8B0000" opacity="0.3"/>
+    <text x="-2" y="3.5" font-family="Arial" font-size="4" font-weight="bold" fill="#8B0000" text-anchor="middle">15</text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Gold Accent Border -->
+    <circle cx="25" cy="25" r="24" fill="none" stroke="#DAA520" stroke-width="0.5" opacity="0.5"/>
+    
+    <!-- Corner Accents -->
+    <circle cx="10" cy="10" r="1.5" fill="#DAA520" opacity="0.7"/>
+    <circle cx="40" cy="10" r="1.5" fill="#DAA520" opacity="0.7"/>
+    <circle cx="10" cy="40" r="1.5" fill="#DAA520" opacity="0.7"/>
+    <circle cx="40" cy="40" r="1.5" fill="#DAA520" opacity="0.7"/>
+    
+    <!-- Spice Leaf Mini Decoration -->
+    <g transform="translate(25, 8) scale(0.15)">
+      <path d="M0,-20 Q10,-15 10,0 Q10,15 0,20 Q-10,15 -10,0 Q-10,-15 0,-20" fill="#006400" opacity="0.5"/>
+      <path d="M0,-20 L0,20" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+      <path d="M-8,-8 L8,8" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+      <path d="M8,-8 L-8,8" stroke="#DAA520" stroke-width="2" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

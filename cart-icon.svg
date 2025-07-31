@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <!-- Background Circle -->
+  <circle cx="25" cy="25" r="24" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+  
+  <!-- Shopping Cart -->
+  <g transform="translate(25, 25)">
+    <!-- Cart Body -->
+    <path d="M-15,0 L-5,0 L0,-12 L10,-12 L15,0 L5,10 L-15,10 Z" fill="#FFFFFF" stroke="#8B0000" stroke-width="1.5"/>
+    
+    <!-- Cart Handle -->
+    <path d="M5,10 L10,10 L12,5" fill="none" stroke="#8B0000" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Wheels -->
+    <circle cx="-10" cy="10" r="2" fill="#8B0000"/>
+    <circle cx="0" cy="10" r="2" fill="#8B0000"/>
+    
+    <!-- Food Items in Cart -->
+    <g transform="translate(0, -5) scale(0.5)">
+      <!-- Plate with Food -->
+      <circle cx="0" cy="0" r="5" fill="#FFFFFF" stroke="#8B0000" stroke-width="1"/>
+      <path d="M-3,-1 L3,-1 L2,2 L-2,2 Z" fill="#DAA520"/>
+      <path d="M-1,-3 L1,-3 L1,-1 L-1,-1 Z" fill="#006400"/>
+    </g>
+    
+    <!-- Spice Leaf Decoration -->
+    <g transform="translate(-8, -5) scale(0.2)">
+      <path d="M0,-20 Q10,-15 10,0 Q10,15 0,20 Q-10,15 -10,0 Q-10,-15 0,-20" fill="#006400" opacity="0.8"/>
+      <path d="M0,-20 L0,20" stroke="#DAA520" stroke-width="2" opacity="0.8"/>
+      <path d="M-8,-8 L8,8" stroke="#DAA520" stroke-width="2" opacity="0.8"/>
+      <path d="M8,-8 L-8,8" stroke="#DAA520" stroke-width="2" opacity="0.8"/>
+    </g>
+  </g>
+  
+  <!-- Gold Accents -->
+  <circle cx="25" cy="25" r="24" fill="none" stroke="#DAA520" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="10" cy="25" r="1" fill="#DAA520"/>
+  <circle cx="40" cy="25" r="1" fill="#DAA520"/>
+  
+  <!-- Number Badge -->
+  <g transform="translate(35, 15)">
+    <circle cx="0" cy="0" r="6" fill="#8B0000"/>
+    <text x="0" y="2" font-family="Arial" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Envelope Base -->
+  <rect x="20" y="35" width="60" height="40" rx="2" ry="2" fill="#FFFFFF" stroke="#8B0000" stroke-width="2"/>
+  
+  <!-- Envelope Flap (Open) -->
+  <path d="M20,35 L50,50 L80,35" fill="none" stroke="#8B0000" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Envelope Content Lines -->
+  <line x1="30" y1="50" x2="45" y2="50" stroke="#8B0000" stroke-width="1.5" opacity="0.7"/>
+  <line x1="30" y1="55" x2="55" y2="55" stroke="#8B0000" stroke-width="1.5" opacity="0.7"/>
+  <line x1="30" y1="60" x2="50" y2="60" stroke="#8B0000" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Spice Leaf Decoration -->
+  <g transform="translate(65, 55) rotate(-15) scale(0.15)">
+    <path d="M0,-50 Q30,-30 30,0 Q30,30 0,50 Q-30,30 -30,0 Q-30,-30 0,-50" fill="#006400"/>
+    <path d="M0,-50 L0,50" stroke="#DAA520" stroke-width="3"/>
+    <path d="M-20,-20 L20,20" stroke="#DAA520" stroke-width="3"/>
+    <path d="M20,-20 L-20,20" stroke="#DAA520" stroke-width="3"/>
+  </g>
+  
+  <!-- Gold Accents -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#DAA520" stroke-width="1" opacity="0.5"/>
+  <circle cx="20" cy="35" r="2" fill="#DAA520"/>
+  <circle cx="80" cy="35" r="2" fill="#DAA520"/>
+  <circle cx="20" cy="75" r="2" fill="#DAA520"/>
+  <circle cx="80" cy="75" r="2" fill="#DAA520"/>
+  
+  <!-- Notification Bell -->
+  <g transform="translate(70, 25) scale(0.8)">
+    <path d="M0,0 Q5,-5 10,0 L10,15 Q5,20 0,15 Z" fill="#DAA520" stroke="#8B0000" stroke-width="1"/>
+    <circle cx="5" cy="18" r="2" fill="#8B0000"/>
+    <path d="M5,-5 Q8,-5 8,-8" fill="none" stroke="#8B0000" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Spice Sprinkles -->
+  <circle cx="25" cy="25" r="1.5" fill="#DAA520" opacity="0.7"/>
+  <circle cx="30" cy="20" r="1" fill="#DAA520" opacity="0.7"/>
+  <circle cx="35" cy="25" r="1.5" fill="#DAA520" opacity="0.7"/>
+  <circle cx="65" cy="80" r="1.5" fill="#DAA520" opacity="0.7"/>
+  <circle cx="70" cy="75" r="1" fill="#DAA520" opacity="0.7"/>
+  <circle cx="75" cy="80" r="1.5" fill="#DAA520" opacity="0.7"/>
+</svg>
