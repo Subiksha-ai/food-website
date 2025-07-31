@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - SpiceLeaf – Authentic South & North Indian Delights</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">SpiceLeaf</a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="menu.html" class="nav-link active">Menu</a></li>
+                    <li class="nav-item"><a href="order.html" class="nav-link">Order Online</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Menu Banner -->
+    <section class="page-banner menu-banner">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <p>Explore our authentic South & North Indian delicacies</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-filter="south-indian">South Indian</button>
+                <button class="menu-tab" data-filter="north-indian">North Indian</button>
+                <button class="menu-tab" data-filter="beverages">Beverages</button>
+                <button class="menu-tab" data-filter="desserts">Desserts</button>
+                <button class="menu-tab" data-filter="combos">Combos</button>
+            </div>
+
+            <div class="menu-items">
+                <!-- South Indian Items -->
+                <div class="menu-category active" id="south-indian">
+                    <h2 class="category-title">South Indian Delights</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/masala-dosa.jpg" alt="Masala Dosa">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Masala Dosa</h3>
+                                    <span class="price">$8.99</span>
+                                </div>
+                                <p>Crispy rice crepe filled with spiced potato filling, served with sambar and chutneys.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/idli-sambar.jpg" alt="Idli Sambar">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Idli Sambar</h3>
+                                    <span class="price">$7.99</span>
+                                </div>
+                                <p>Soft, fluffy steamed rice cakes served with spicy lentil soup and coconut chutney.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/vada.jpg" alt="Medu Vada">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Medu Vada</h3>
+                                    <span class="price">$6.99</span>
+                                </div>
+                                <p>Crispy lentil donuts served with sambar and coconut chutney.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/uttapam.jpg" alt="Uttapam">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Uttapam</h3>
+                                    <span class="price">$9.99</span>
+                                </div>
+                                <p>Thick rice pancake topped with onions, tomatoes, and cilantro.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/pongal.jpg" alt="Ven Pongal">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Ven Pongal</h3>
+                                    <span class="price">$10.99</span>
+                                </div>
+                                <p>Savory rice and lentil porridge seasoned with cumin, pepper, and ghee.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/appam.jpg" alt="Appam with Stew">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Appam with Stew</h3>
+                                    <span class="price">$12.99</span>
+                                </div>
+                                <p>Lacy rice pancakes served with vegetable or chicken stew.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- North Indian Items -->
+                <div class="menu-category" id="north-indian">
+                    <h2 class="category-title">North Indian Specialties</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/chole-bhature.jpg" alt="Chole Bhature">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Chole Bhature</h3>
+                                    <span class="price">$11.99</span>
+                                </div>
+                                <p>Spicy chickpea curry served with deep-fried bread.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/hyderabadi-biryani.jpg" alt="Hyderabadi Biryani">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Hyderabadi Biryani</h3>
+                                    <span class="price">$14.99</span>
+                                </div>
+                                <p>Aromatic basmati rice cooked with tender meat, herbs and authentic spices.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/butter-chicken.jpg" alt="Butter Chicken">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Butter Chicken</h3>
+                                    <span class="price">$13.99</span>
+                                </div>
+                                <p>Tender chicken cooked in a creamy tomato sauce with butter and spices.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/paneer-tikka.jpg" alt="Paneer Tikka">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Paneer Tikka</h3>
+                                    <span class="price">$12.99</span>
+                                </div>
+                                <p>Marinated cottage cheese cubes grilled to perfection with bell peppers and onions.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/dal-makhani.jpg" alt="Dal Makhani">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Dal Makhani</h3>
+                                    <span class="price">$10.99</span>
+                                </div>
+                                <p>Creamy black lentils slow-cooked with butter and spices.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/naan.jpg" alt="Garlic Naan">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Garlic Naan</h3>
+                                    <span class="price">$3.99</span>
+                                </div>
+                                <p>Soft bread topped with garlic and butter, baked in a tandoor oven.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/malai-kofta.jpg" alt="Malai Kofta">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Malai Kofta</h3>
+                                    <span class="price">$12.99</span>
+                                </div>
+                                <p>Vegetable and cheese dumplings in a rich, creamy sauce.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/kadai-paneer.jpg" alt="Kadai Paneer">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Kadai Paneer</h3>
+                                    <span class="price">$13.99</span>
+                                </div>
+                                <p>Cottage cheese cooked with bell peppers in a spicy tomato gravy.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/rogan-josh.jpg" alt="Rogan Josh">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Rogan Josh</h3>
+                                    <span class="price">$15.99</span>
+                                </div>
+                                <p>Aromatic lamb curry with Kashmiri spices and yogurt.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/naan.jpg" alt="Palak Paneer">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Palak Paneer</h3>
+                                    <span class="price">$12.99</span>
+                                </div>
+                                <p>Cottage cheese cubes in a creamy spinach gravy flavored with garlic and spices.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/naan.jpg" alt="Chicken Tikka Masala">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Chicken Tikka Masala</h3>
+                                    <span class="price">$14.99</span>
+                                </div>
+                                <p>Grilled chicken pieces in a rich, creamy tomato sauce with aromatic spices.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/naan.jpg" alt="Aloo Gobi">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Aloo Gobi</h3>
+                                    <span class="price">$11.99</span>
+                                </div>
+                                <p>Potatoes and cauliflower cooked with onions, tomatoes, and traditional Indian spices.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages Items -->
+                <div class="menu-category" id="beverages">
+                    <h2 class="category-title">Refreshing Beverages</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/masala-chai.jpg" alt="Masala Chai">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Masala Chai</h3>
+                                    <span class="price">$3.99</span>
+                                </div>
+                                <p>Traditional Indian spiced tea with milk.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/filter-coffee.jpg" alt="Filter Coffee">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Filter Coffee</h3>
+                                    <span class="price">$4.49</span>
+                                </div>
+                                <p>South Indian style coffee brewed with chicory.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/lassi.jpg" alt="Mango Lassi">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Mango Lassi</h3>
+                                    <span class="price">$4.99</span>
+                                </div>
+                                <p>Refreshing yogurt drink blended with mango pulp.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/buttermilk.jpg" alt="Spiced Buttermilk">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Spiced Buttermilk</h3>
+                                    <span class="price">$3.49</span>
+                                </div>
+                                <p>Churned yogurt with cumin, coriander, and mint.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/buttermilk.jpg" alt="Rose Milk">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Rose Milk</h3>
+                                    <span class="price">$4.49</span>
+                                </div>
+                                <p>Chilled milk flavored with rose syrup and topped with pistachios.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/buttermilk.jpg" alt="Strawberry Lassi">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Strawberry Lassi</h3>
+                                    <span class="price">$4.99</span>
+                                </div>
+                                <p>Creamy yogurt drink blended with fresh strawberries and honey.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/buttermilk.jpg" alt="Masala Lemonade">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Masala Lemonade</h3>
+                                    <span class="price">$3.99</span>
+                                </div>
+                                <p>Refreshing lemonade with a hint of cumin, mint, and black salt.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/buttermilk.jpg" alt="Mint Chaas">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Mint Chaas</h3>
+                                    <span class="price">$3.49</span>
+                                </div>
+                                <p>Traditional Indian buttermilk flavored with fresh mint, cumin, and coriander.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/buttermilk.jpg" alt="Coconut Water">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Fresh Coconut Water</h3>
+                                    <span class="price">$4.99</span>
+                                </div>
+                                <p>Natural coconut water served in the shell with a splash of lime.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts Items -->
+                <div class="menu-category" id="desserts">
+                    <h2 class="category-title">Sweet Endings</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/gulab-jamun.jpg" alt="Gulab Jamun">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Gulab Jamun</h3>
+                                    <span class="price">$5.99</span>
+                                </div>
+                                <p>Soft milk solids dumplings soaked in rose-flavored sugar syrup.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/rasmalai.jpg" alt="Rasmalai">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Rasmalai</h3>
+                                    <span class="price">$6.99</span>
+                                </div>
+                                <p>Soft cottage cheese patties soaked in sweetened, thickened milk flavored with cardamom.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/kheer.jpg" alt="Rice Kheer">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Rice Kheer</h3>
+                                    <span class="price">$5.99</span>
+                                </div>
+                                <p>Creamy rice pudding garnished with nuts and saffron.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/jalebi.jpg" alt="Jalebi">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Jalebi</h3>
+                                    <span class="price">$4.99</span>
+                                </div>
+                                <p>Crispy, pretzel-shaped sweets soaked in saffron-infused sugar syrup.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/jalebi.jpg" alt="Kulfi">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Malai Kulfi</h3>
+                                    <span class="price">$5.99</span>
+                                </div>
+                                <p>Traditional Indian ice cream made with reduced milk and flavored with pistachios and cardamom.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/jalebi.jpg" alt="Gajar Halwa">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Gajar Halwa</h3>
+                                    <span class="price">$6.49</span>
+                                </div>
+                                <p>Warm carrot pudding cooked with milk, ghee, and nuts, served with a scoop of vanilla ice cream.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/jalebi.jpg" alt="Rasgulla">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Rasgulla</h3>
+                                    <span class="price">$5.49</span>
+                                </div>
+                                <p>Soft, spongy cheese balls soaked in light sugar syrup.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/jalebi.jpg" alt="Mango Shrikhand">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Mango Shrikhand</h3>
+                                    <span class="price">$6.99</span>
+                                </div>
+                                <p>Strained yogurt dessert flavored with ripe Alphonso mango pulp and saffron.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/jalebi.jpg" alt="Phirni">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Phirni</h3>
+                                    <span class="price">$5.99</span>
+                                </div>
+                                <p>Creamy ground rice pudding flavored with cardamom and topped with pistachios, served chilled in earthen pots.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combos Items -->
+                <div class="menu-category" id="combos">
+                    <h2 class="category-title">Value Combos</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/south-thali.jpg" alt="South Indian Thali">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>South Indian Thali</h3>
+                                    <span class="price">$18.99</span>
+                                </div>
+                                <p>Complete meal with rice, sambar, rasam, vegetable curries, chutneys, and dessert.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/north-thali.jpg" alt="North Indian Thali">
+                                <span class="offer-tag">20% OFF</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>North Indian Thali</h3>
+                                    <span class="price"><del>$19.99</del> $15.99</span>
+                                </div>
+                                <p>Complete meal with roti, rice, dal, paneer dish, vegetable curry, raita, and dessert.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/family-combo.jpg" alt="Family Feast">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Family Feast (4 persons)</h3>
+                                    <span class="price">$49.99</span>
+                                </div>
+                                <p>Assorted bread basket, 2 veg curries, 2 non-veg curries, rice, raita, and dessert.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/tiffin-combo.jpg" alt="South Indian Tiffin Combo">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>South Indian Tiffin Combo</h3>
+                                    <span class="price">$16.99</span>
+                                </div>
+                                <p>Idli, vada, mini dosa, upma, and filter coffee.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/tiffin-combo.jpg" alt="Tandoori Mixed Grill">
+                                <span class="chef-special-tag">Chef's Special</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Tandoori Mixed Grill</h3>
+                                    <span class="price">$24.99</span>
+                                </div>
+                                <p>Assortment of tandoori chicken, seekh kebab, paneer tikka, and fish tikka with mint chutney and naan.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/tiffin-combo.jpg" alt="Vegetarian Feast">
+                                <span class="offer-tag">15% OFF</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Vegetarian Feast (2 persons)</h3>
+                                    <span class="price"><del>$29.99</del> $25.49</span>
+                                </div>
+                                <p>Dal makhani, paneer butter masala, mixed vegetable curry, pulao rice, naan, raita, and gulab jamun.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/tiffin-combo.jpg" alt="Biryani Combo">
+                                <span class="bestseller-tag">Bestseller</span>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Biryani Combo</h3>
+                                    <span class="price">$19.99</span>
+                                </div>
+                                <p>Choice of chicken or vegetable biryani served with raita, salan gravy, and gulab jamun.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="item-img">
+                                <img src="images/tiffin-combo.jpg" alt="Chaat Platter">
+                            </div>
+                            <div class="item-info">
+                                <div class="item-header">
+                                    <h3>Chaat Platter</h3>
+                                    <span class="price">$14.99</span>
+                                </div>
+                                <p>Assortment of pani puri, bhel puri, papdi chaat, and dahi puri with chutneys.</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Menu Section -->
+    <section class="download-menu">
+        <div class="container">
+            <div class="download-content">
+                <h2>Want to take our menu with you?</h2>
+                <p>Download our complete menu with prices and descriptions.</p>
+                <a href="downloads/spiceleaf-menu.pdf" class="btn btn-primary" download><i class="fas fa-download"></i> Download PDF Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>SpiceLeaf</h2>
+                    <p>Authentic South & North Indian Delights</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="order.html">Order Online</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Spice Street, Flavor City</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+                    <p><i class="fas fa-envelope"></i> info@spiceleaf.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 SpiceLeaf. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
